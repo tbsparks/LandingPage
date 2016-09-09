@@ -223,9 +223,9 @@
                     
                     <ul class="skills">
 							<li data-percent="80">
-								<span>Google</span>
+								<span class="topmargin"><i>“72% of consumers will take action only after reading a positive review”</i></span>
 								<div class="progress">
-									<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
+									<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="72" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
                         
 								</div>
 							</li>
@@ -284,13 +284,14 @@
 							<span>Understand and track your customer's experience with simple custom surveys</span>
 						</div>
 
-						<p><span>SocialSwell</span> makes it easy for you to learn how your customers feel about the direction of your business. Simply create a custom survey, invite your customers to complete it with a text or email and track the results</p> 
+						<p><i class="color">SocialSwell</i> makes it easy for you to learn how your customers feel about the direction of your business. Simply create a custom survey, invite your customers to complete it with a text or email and track the results</p> 
 
 					</div>
 
-					<div class="col_two_fifth topmargin col_last" id="doughnutChart" style="opacity: 0;">
-						<canvas id="doughnutChartCanvas" width="430" height="300"></canvas>
+					<div class="col_two_fifth topmargin col_last" id="doughnutChart" style="opacity: 50;">
+						<canvas id="doughnutChartCanvas" width="547" height="300"></canvas>
 					</div>
+                                    
                 </div>
         </div>
         <div class="line"></div>
@@ -309,7 +310,7 @@
 							<span>Get your loyal customers to like, follow or post about your business on the social media sites that are important to your business</span>
 						</div>
 
-						<p>Social media is the best way to generate referrals from your happy customers. Use SocialSwell to attract likes and followers on facebook, instagram and twitter as well as find out who your most influential customers are on social media.</p>
+						<p>Social media is the best way to generate referrals from your happy customers. Use <i class="color">SocialSwell</i> to attract likes and followers on facebook, instagram and twitter as well as find out who your most influential customers are on social media.</p>
 
 				</div>
         
@@ -328,15 +329,15 @@
 					<div class="col_two_fifth topmargin-sm bottommargin-lg col_last">
 
 						<div class="heading-block topmargin">
-							<h2>Grow you business.</h2>
-							<span>Design custom social media campaigns and get realtime feedback on how you business is growing.</span>
+							<h2>Grow your business.</h2>
+							<span>Design custom social media campaigns and get realtime feedback on how your business is growing.</span>
 						</div>
 
 						<p>The <span><i class="color">SocialSwell</i></span> management system allows you to create custom campaigns aimed at generating positive reviews, creating effective customer surveys and increasing traffic to your social media sites. </p>
 
-
+                        <!-- don't need this button
 						<a href="#contact" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
-
+                        -->
 					</div>
 
 				<div class="line"></div>
@@ -347,7 +348,11 @@
             	
                  <!-- Product Specifications 
                 ============================================= -->
-                <div class="container clearfix">
+		<section id="productspec" style="overflow: visible;">
+
+			<div class="content-wrap">
+
+				<div class="container clearfix">
 
 					<div id="section-specs" class="heading-block title-center page-section">
 						<h2>Product Specifications</h2>
@@ -402,12 +407,40 @@
 
 					</div>
 
+
 				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+    
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script type="text/javascript">
+		$(function() {
+			$( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
+		});
+	</script>
 
                  <!-- Current Customers
                 ============================================= -->
 				<div class="container clearfix">
+                    
+                    <div class="clear"></div>
 
+				    <div class="col_full color">
+					   <div class="container clearfix">
+						Our customers have already started taking control of their <strong>See More</strong> <i class="icon-caret-right" style="top:4px;"></i>
+					   </div>
+				    </div>
+                    
 					<div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
 
 						<div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
