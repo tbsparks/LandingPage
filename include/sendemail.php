@@ -5,8 +5,8 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'username@website.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+				'email' => 'bryantravissparks@gmail.com', // Your Email Address
+				'name' => 'Travis' // Your Name
 			);
 
 // Form Processing Messages
@@ -26,7 +26,6 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		$name = isset( $_POST['template-contactform-name'] ) ? $_POST['template-contactform-name'] : '';
 		$email = isset( $_POST['template-contactform-email'] ) ? $_POST['template-contactform-email'] : '';
 		$phone = isset( $_POST['template-contactform-phone'] ) ? $_POST['template-contactform-phone'] : '';
-		$service = isset( $_POST['template-contactform-service'] ) ? $_POST['template-contactform-service'] : '';
 		$subject = isset( $_POST['template-contactform-subject'] ) ? $_POST['template-contactform-subject'] : '';
 		$message = isset( $_POST['template-contactform-message'] ) ? $_POST['template-contactform-message'] : '';
 

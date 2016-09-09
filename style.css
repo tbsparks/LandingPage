@@ -8588,10 +8588,10 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 .social-icon.si-large {
 	margin: 0 10px 10px 0;
-	width: 56px;
-	height: 56px;
-	font-size: 30px;
-	line-height: 54px !important;
+	width: 168px;
+	height: 168px;
+	font-size: 90px;
+	line-height: 162px !important;
 }
 
 /* Social Icons - Small
