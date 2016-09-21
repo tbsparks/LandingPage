@@ -8572,7 +8572,7 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 .si-light {
 	background-color: rgba(0,0,0,0.05);
-	color: #666 !important;
+	color: # !important;
 	border-color: transparent;
 }
 
@@ -13531,6 +13531,7 @@ body:not(.no-transition) #wrapper,
 }
 
 .social-icon:not(.nohover):hover {
-
+	color: #555;
+	border-color: transparent;
 
 }
