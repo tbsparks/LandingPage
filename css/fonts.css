@@ -12,7 +12,7 @@ small,
 .wp-caption,
 .feature-box.fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
-.nav-tree ul ul a { font-family: 'Lato', sans-serif; }
+.nav-tree ul ul a { font-family: 'Roboto', sans-serif; }
 
 h1,
 h2,
@@ -31,7 +31,7 @@ h6,
 label,
 .nav-tree li a,
 .wedding-head .first-name,
-.wedding-head .last-name { font-family: 'Raleway', sans-serif; }
+.wedding-head .last-name { font-family: 'Roboto', sans-serif; }
 
 .entry-meta li,
 .entry-link span,
@@ -43,13 +43,13 @@ label,
 .team-title span,
 .before-heading,
 .wedding-head .first-name span,
-.wedding-head .last-name span { font-family: 'Crete Round', serif; }
+.wedding-head .last-name span { font-family: 'Roboto', sans-serif; }
 
-.font-body { font-family: 'Lato', sans-serif !important; }
+.font-body { font-family: 'Roboto', sans-serif !important; }
 
-.font-primary { font-family: 'Raleway', sans-serif !important; }
+.font-primary { font-family: 'Roboto', sans-serif !important; }
 
-.font-secondary { font-family: 'Crete Round', serif !important; }
+.font-secondary { font-family: 'Roboto', sans-serif  !important; }
 
 
 /* ----------------------------------------------------------------
@@ -65,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 600;
+	font-weight: 100;
 	line-height: 1.5;
 }
 
@@ -83,7 +83,7 @@ h6 {
 
 #primary-menu ul ul li > a {
 	font-size: 12px;
-	font-weight: 600;
+	font-weight: 300;
 	letter-spacing: 0;
 }
 
@@ -97,7 +97,7 @@ h6 {
 
 #top-search form input {
 	font-size: 32px;
-	font-weight: 700;
+	font-weight: 300;
 	letter-spacing: 2px;
 }
 
@@ -111,7 +111,7 @@ h6 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 24px;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 .entry-link span {
@@ -123,7 +123,7 @@ h6 {
 }
 
 .entry blockquote p {
-	font-weight: 400;
+	font-weight: 100i;
 	font-style: italic;
 }
 
@@ -151,7 +151,7 @@ h6 {
 
 .button.button-desc span {
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 100;
 	letter-spacing: 1px;
 	font-style: italic;
 	text-transform: none;
@@ -162,21 +162,21 @@ h6 {
 .testi-content p { font-style: italic; }
 
 .team-title span {
-	font-weight: 400;
+	font-weight: 100;
 	font-style: italic;
 	font-size: 15px;
 }
 
 .counter {
 	font-size: 42px;
-	font-weight: 600;
+	font-weight: 100;
 }
 
-.skills li .progress-percent .counter { font-weight: 400; }
+.skills li .progress-percent .counter { font-weight: 300; }
 
 label {
 	font-size: 13px;
-	font-weight: 700;
+	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -184,7 +184,7 @@ label {
 .before-heading {
 	font-size: 16px;
 	font-style: italic;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .wedding-head .first-name,
@@ -197,7 +197,7 @@ label {
 .wedding-head .first-name span,
 .wedding-head .last-name span {
 	font-size: 56px;
-	font-weight: 400;
+	font-weight: 100;
 	font-style: italic;
 	text-transform: none;
 }

@@ -5,11 +5,11 @@
 -----------------------------------------------------------------*/
 
 
-::selection { background: #2e8ece; }
+::selection { background: #00aeef; }
 
-::-moz-selection { background: #2e8ece; }
+::-moz-selection { background: #00aeef; }
 
-::-webkit-selection { background: #2e8ece; }
+::-webkit-selection { background: #00aeef; }
 
 
 a,
