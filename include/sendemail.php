@@ -19,6 +19,18 @@ $mail = new PHPMailer();
 
 // If you intend you use SMTP, add your SMTP Code after this Line
 
+$mail->isSMTP();
+$mail->SMTPDebug = 2;
+$mail->Debugoutput = 'html';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = 587;
+$mail->SMTPSecure = 'tls';
+$mail->SMTPAuth = true;
+$mail->Username = "bryantravissparks@gmail.com";
+$mail->Password = "sparks123";
+
+
+
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	if( $_POST['template-contactform-email'] != '' ) {
