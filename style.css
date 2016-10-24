@@ -3039,10 +3039,10 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 }
 
 .slider-caption h2 {
-	font-size: 64px;
+	font-size: 74px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 1;
 	margin-bottom: 30px;
 }
@@ -3050,6 +3050,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 .slider-caption p {
 	margin-bottom: 10px;
 	font-size: 24px;
+    font-weight: 100;
 }
 
 .slider-caption.slider-caption-right {
@@ -6946,7 +6947,7 @@ body:not(.device-touch) .button.button-reveal span {
 	margin: 0;
 	height: auto;
 	line-height: 1.6;
-	padding: 30px 0;
+	padding: 30px 30px;
 	font-size: 30px;
 	font-weight: 300;
 	text-transform: none;
@@ -8572,7 +8573,7 @@ body:not(.device-touch) .on-hover.i-overlay {
 
 .si-light {
 	background-color: rgba(0,0,0,0.05);
-	color: #666 !important;
+	color: # !important;
 	border-color: transparent;
 }
 
@@ -8587,11 +8588,11 @@ body:not(.device-touch) .on-hover.i-overlay {
 -----------------------------------------------------------------*/
 
 .social-icon.si-large {
-	margin: 0 10px 10px 0;
-	width: 56px;
-	height: 56px;
-	font-size: 30px;
-	line-height: 54px !important;
+	margin: 0 30px 30px 0;
+	width: 104px;
+	height: 104px;
+	font-size: 65px;
+	line-height: 101px !important;
 }
 
 /* Social Icons - Small
@@ -10277,7 +10278,7 @@ body:not(.device-touch) .team-overlay {
 
 .rounded-skill {
 	display: inline-block;
-	margin: 0 15px 15px;
+	margin: 0 30px 30px;
 	display: inline-block;
 	position: relative;
 	text-align: center;
@@ -13525,3 +13526,13 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
+
+.social-icon:not(.nothover):hover {
+    
+}
+
+.social-icon:not(.nohover):hover {
+	color: #555;
+	border-color: transparent;
+
+}

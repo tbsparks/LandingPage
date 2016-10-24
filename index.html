@@ -7,7 +7,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
@@ -30,13 +30,50 @@
 
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="http://www.socialswell.com/favicon.png">
+    <link rel="icon" href="http://socialswell.com/favicon.png">
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
+    <!-- Favicon all sizes
+	============================================= -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicomatic/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicomatic/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicomatic/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicomatic/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/favicomatic/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicomatic/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/favicomatic/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicomatic/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="images/favicomatic/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-84933049-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+  
 	<!-- Document Title
 	============================================= -->
-	<title>Canvas | The Multi-Purpose HTML5 Template</title>
+	<title>SocialSwell</title>
 
 <style>
 #top-header-buttons {
@@ -81,30 +118,46 @@
 
 				<div class="container clearfix">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+					<div id="primary-menu-trigger">
+                        <i class="icon-reorder"></i>
+                    </div>
 
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index-with-button.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-						<a href="index-with-button.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="images/swell-dark-v2.png"><img src="images/swell-v8.png" alt="SocialSwell Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/swell-dark2x-v2.png"><img src="images/swell2x-v8.png" alt="SocialSwell Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
 					============================================= -->
 					<nav id="primary-menu" class="dark">
 
-						<ul class="one-page-menu">
-                            <li class="current"><a href="#" data-href=#header><div>Home</div></a></li>
-                            <li><a href="#" data-scrollto="#content"><div>Product</div></a></li>
-							<li><a href="#" data-href="#section-pages"><div>Features</div></a></li>
-							<li><a href="#" data-href="#section-portfolio"><div>Pricing</div></a></li>
-							<li><a href="#" data-href="#section-blog"><div>demo</div></a></li>
-							<li><a href="#" data-href="#section-shortcodes"><div</div></a></li>
+						<ul>
+                            <li class="current">
+                                <a href="#" data-href="#home">
+                                    <div>Home</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-scrollto="#content">
+                                    <div>Product</div>
+                                </a>
+                            </li>
+							<li>
+                                <a href="#" data-scrollto="#location">                      <div>Features</div>
+                                </a>
+                            </li>
+							<li>
+                                <a href="#" data-scrollto="#contact">
+                                    <div>Demo</div>
+                                </a>
+                            </li>
+				
 						</ul>
                 
 						<div id="top-header-buttons" class="hidden-xs">
-							<a href="login.html" class="button button-3d button-small button-rounded">Login</a>
+							<a href="http://dashboard.socialswell.co" class="button button-3d button-small button-rounded">Login</a>
 							<!--<a href="#">Login <i class="icon-caret-right" style="position: relative; top: 2px; margin-left:3px;"></i></a>-->
 						</div>
 
@@ -115,289 +168,314 @@
 			</div>
 
 		</header><!-- #header end -->
-
-		<section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
+        
+        <!-- Section Home Page
+        ============================================= -->
+        
+		<section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix nobottomborder">
 			<div class="slider-parallax-inner">
-
 				<div class="swiper-container swiper-parent">
-					<div class="swiper-wrapper">
-                        
-                        
-                       	<div class="swiper-slide dark">
+					<div class="swiper-wrapper"> 
+                       	<div class="swiper-slide dark" style="background-image: url('images/shop2.jpg');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
-									<h2 data-caption-animate="fadeInUp" style="color: rgba(63,191,191,0.75); font-size:75px"><Span>SocialSwell</Span></h2>
+									<h2 data-caption-animate="fadeInUp">socialswell</h2>
                                     
-									<p data-caption-animate="fadeInUp" data-caption-delay="200">Make it easy for your happy customers to talk about your business</p>
-                                    <i class="material-icons" data-caption-animate="fadeInUp" data-caption-delay="600" style="color: rgba(63,191,191,0,0.75); font-size:50px">star</i>
-                                    <i class="material-icons" data-caption-animate="fadeInUp" data-caption-delay="800" style="color: rgba(63,191,191,0,0.75); font-size:50px;">star</i>
-                                    <i class="material-icons" data-caption-animate="fadeInUp" data-caption-delay="1000" style="color: rgba(63,191,191,0,0.75); font-size:50px">star</i>
-                                    <i class="material-icons" data-caption-animate="fadeInUp" data-caption-delay="1200" style="color: rgba(63,191,191,0,0.75); font-size:50px">star</i>
-                                    <i class="material-icons" data-caption-animate="fadeInUp" data-caption-delay="1400" style="color: rgba(63,191,191,0,0.75); font-size:50px">star</i>
+									<p data-caption-animate="fadeInUp" data-caption-delay="200">Make it easy for your happy customers to find and talk about your business</p>
+                                    <i class="material-icons color" data-caption-animate="fadeInUp" data-caption-delay="600" style="font-size:50px">star</i>
+                                    <i class="material-icons color" data-caption-animate="fadeInUp" data-caption-delay="800" style="font-size:50px;">star</i>
+                                    <i class="material-icons color" data-caption-animate="fadeInUp" data-caption-delay="1000" style="font-size:50px">star</i>
+                                    <i class="material-icons color" data-caption-animate="fadeInUp" data-caption-delay="1200" style="font-size:50px">star</i>
+                                    <i class="material-icons color" data-caption-animate="fadeInUp" data-caption-delay="1400" style="font-size:50px">star</i>
+                                    <!-- don't need this button
                                     <a href="#" data-scrollto="#content" class="button button-border button-white button-light button-large button-rounded" data-caption-animate="fadeInUp" data-caption-delay="1800" style="margin:30px"><span>Learn More</span> <i class="icon-angle-right"></i></a>
+-->
 								</div>
 							</div>
+                            <!-- Video Background
+                            ================================
 							<div class="video-wrap">
-								<video id="slide-video" poster="images/videos/Coffee-Shot.jpg" preload="auto" loop autoplay muted>
-									<source src='images/videos/Coffee-Shot.webm' type='video/webm' />
-									<source src='images/videos/Coffee-Shot.mp4' type='video/mp4' />
+								<video id="slide-video" poster="images/videos/ocean.png" preload="auto" loop autoplay muted>
+									<source src='images/videos/ocean2.webm' type='video/webm' />
+									<source src='images/videos/ocean2.mp4.mp4' type='video/mp4' />
+                                    <source src='images/videos/ocean2.ogv' type='video/ogv' />
 								</video>
 								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
 							</div>
+                            -->
+                            
 						</div>
                     </div>
 				</div>
-
-
-				<a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
-
+				    <a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
 			</div>
-
 		</section>
 
 		<!-- Content
 		============================================= -->
-        <section id="content">
+        <section id="content" style="overflow: visible;">
 
 			<div class="content-wrap">
+                
+                <!-- Parallax with stats
+                ==================================== -->
+				<div class="container center clearfix" style="padding: 100px 0px 200px 0px;">
 
-				<div class="container clearfix">
+						<div class="heading-block notopmargin">
+							<h2>Manage your online reputation with <span>Swell</span></h2>
+							<span>Let's face it your business's success depends on your customer's positive reviews</span>
+						</div>
 
-					<div class="divcenter center clearfix" style="max-width: 900px;">
-						<!--<img class="bottommargin" src="images/logo-side.png" alt=""> -->
-						<h1 style="font-size:30px">Manage your online reputation with <span>SocialSwell</span>, using simple customizable online social campaigns.</h1>
-						<p style="font-size:17px"><i>"88% of customers trust an online review as much as a personal recommendations" - Forbes</i></p>
-                        
-						<a href="#" class="button button-3d button-large">Request a Demo</a>
+						<div class="col_one_fourth topmargin-sm nobottommargin">
+							<div class="rounded-skill" data-color="#2e8ece" data-size="150" data-percent="88" data-width="4" data-animate="3000">88%</div>
+                            <h5><i>"88% of customers trust an online review as much as a personal recommendation"</i></h5>
+						</div>
+
+						<div class="col_one_fourth topmargin-sm nobottommargin">
+							<div class="rounded-skill" data-color="#2e8ece" data-size="150" data-percent="72" data-width="4" data-animate="4000">72%</div>
+                            <h5><i>"72% of customers will take action only after reading a positive review"</i></h5>
+						</div>
+
+						<div class="col_one_fourth topmargin-sm nobottommargin">
+							<div class="rounded-skill" data-color="#2e8ece" data-size="150" data-percent="92" data-width="4" data-animate="2000">92%</div>
+                            <h5><i>"92% of users will use a local business if it has at least a 4-star rating"</i></h5>
+						</div>
+
+						<div class="col_one_fourth topmargin-sm nobottommargin col_last">
+							<div class="rounded-skill" data-color="#2e8ece" data-size="150" data-percent="9" data-width="4" data-animate="2000">5-9%</div>
+                            <h5><i>"A one star increase on Yelp leads to a 5-9% increase in a business's revenue, one negative revew can cost a business 30 customers"</i></h5>
+						</div>
+
 					</div>
-
-					<div class="line"></div>
+                
+                <!-- Top Button Icons
+                ===================================== -->
+                <div class="section nomargin notopborder">
+                <div class="container center clearfix" style="padding:75px 0px 75px 0px;">
+                    <div class="heading-block notopmargin">
+                        <h2><span>Swell</span> offers simple tools for business success</h2>
+                        <span>Interacting with your customers online shouldn't be complicated</span>
+                    </div>
+                    <div class="col_one_fourth nobottomborder">
+						<div class="feature-box fbox-center fbox-light fbox-effect nobottomborder">
+							<div class="fbox-icon">
+								<a href="#" data-scrollto="#location"><i class="i-alt noborder icon-location"></i></a>
+							</div>
+							<h3>Find your business<span class="subtitle">Keep you location listings consistent across multiple sites</span></h3>
+						</div>
+					</div>
+					<div class="col_one_fourth nobottomborder">
+						<div class="feature-box fbox-center fbox-light fbox-effect nobottomborder">
+							<div class="fbox-icon">
+								<a href="#" data-scrollto="#features"><i class="i-alt noborder icon-like"></i></a>
+							</div>
+							<h3>Generate Positive Reviews<span class="subtitle">Get your best customers talking about your business</span></h3>
+						</div>
+					</div>
+					<div class="col_one_fourth nobottomborder">
+						<div class="feature-box fbox-center fbox-light fbox-effect nobottomborder">
+							<div class="fbox-icon">
+								<a href="#" data-scrollto="#surveys"><i class="i-alt noborder icon-pen"></i></a>
+							</div>
+							<h3>Create Custom Surveys<span class="subtitle">Use surveys to learn specifics about you customers experiences</span></h3>
+						</div>
+					</div>
+					<div class="col_one_fourth nobottomborder col_last">
+						<div class="feature-box fbox-center fbox-light fbox-effect nobottomborder">
+							<div class="fbox-icon">
+								<a href="#" data-scrollto="#socialmedia"><i class="i-alt noborder icon-line2-social-facebook"></i></a>
+							</div>
+							<h3>Increase Social Media<span class="subtitle">Leverage your best customers to increase sales</span></h3>
+						</div>
+					</div>
+                </div>
+                </div>
+                
+                <!-- Three features sections
+                ==================================== -->
+                <div class="section parallax nomargin noborder dark" style="background-image: url('images/table3.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3" id="location">
+                    <div class="container clearfix">
+					   <div class="col_three_fifth">
+						  <div class="heading-block">
+							<h3>Manage your online listings across multiple sites from one simple, intuitive dashboard</h3>
+							<span>Move to the top of search results by having consistent online listings.</span>
+						  </div>
+                            <p>Both consumers and search engines depend on correct and consistent online listings in order to find your business. SocialSwell helps you identify where your listings and inconsistent and allows you to correct or update them with a single click.</p> 
+					   </div> 
+                        <div class="col_two_fifth col_last">
+                            <img data-animate="fadeInRight" src="images/locations_vector2.png" alt="Manage Locations">
+                        </div>
+                    </div>
+                </div>
+                <div class="section nomargin noborder light" style="padding: 80px 0;" id="features">
+                    <div class="container clearfix">
+                        <div class="col_two_fifth">
+                            <img data-animate="fadeInLeft" src="images/SocialLogos2.png" alt="Social Logos">
+                        </div>
+				        <div class="col_three_fifth col_last">
+						  <div class="heading-block">
+							 <h3>Get more positive reviews on sites like Google, Facebook and Yelp</h3>
+							 <span>Encourage positive feedback from your customers with personalized invites via text or email.</span>
+						  </div>
+						      <p>Most customers search online listings when making a purchasing decision. Increase your visability and online reputation by generating reviews on sites that are most relevant to your business.</p><p>Your happy customers are your best marketers and a steady flow of positive online reviews from multiple sources will help push your listing to the top of local searches.</p>
+				        </div>
+                    </div>
+                </div>       
+                <div class="section parallax nomargin noborder dark" style="background-image: url('images/wood.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3" id="surveys">
+                    <div class="container clearfix">
+					   <div class="col_three_fifth">
+						  <div class="heading-block">
+							<h3>Track your business's improvement with custom surveys</h3>
+							<span>Understand and track your customer's experience with simple custom surveys</span>
+						  </div>
+                            <p><i class="color">SocialSwell</i> makes it easy for you to learn how your customers feel about specific details of your business. Simply create a custom survey using the built in tools on your business's dashboard then invite your customers to complete it using a text or email</p><p>Track the results of each of your surveys in real-time.</p> 
+					   </div>
+					   <div class="col_two_fifth col_last dark" id="barChart" style="opacity: 1;">
+						  <canvas id="barChartCanvas" width="530" height="400"></canvas>
+					   </div>                 
+                    </div>
+                </div>
+                <div class="section nomargin noborder" style="padding: 80px 0;" id="socialmedia">
+                    <div class="container clearfix">
+                        <div class="col_two_fifth notopmargin"style="padding-left:40px">
+                            <img data-animate="fadeIn" src="images/iphone6-3.png" alt="iphone">
+				        </div>
+				        <div class="col_three_fifth nobottommargin col_last">
+						  <div class="heading-block">
+							 <h3>Increase traffic to your social media sites</h3>
+							 <span>Get your loyal customers to like, follow or post about your business on the social media sites that are important to your business</span>
+						  </div>
+						      <p>Social media is the best way to generate referrals from your happy customers. Use <i>SocialSwell</i> to attract likes and followers on facebook, instagram and twitter as well as find out who your most influential customers are on social media.</p>
+				        </div>
+				    </div>
+                </div> 
     
-            <div class="container clearfix">
-
+                <!-- Grow your business product screen shot 
+                =============================================
+                <div class="container clearfix">
 					<div class="col_three_fifth topmargin-sm bottommargin">
 						<img data-animate="fadeInLeftBig" src="images/services/imac.png" alt="Imac">
 					</div>
-
 					<div class="col_two_fifth topmargin-sm bottommargin-lg col_last">
-
 						<div class="heading-block topmargin">
-							<h2>Grow you business.</h2>
-							<span>Design custom social media campaigns and get realtime feedback on how you business is growing.</span>
+							<h2>Grow your business.</h2>
+							<span>Design custom social media campaigns and get realtime feedback on how your business is growing.</span>
 						</div>
-
 						<p>The <span><i class="color">SocialSwell</i></span> management system allows you to create custom campaigns aimed at generating positive reviews, creating effective customer surveys and increasing traffic to your social media sites. </p>
-
-
-						<a href="#" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>
-
+                        <!-- don't need this button
+						<a href="#contact" class="button button-border button-rounded button-large noleftmargin topmargin-sm">Experience More</a>     
 					</div>
-
-				<div class="line"></div>
-
-				</div>       
-                    
+				    <div class="line"></div>
+                </div>           
 				<div class="clear"></div>
-
-				</div>
-
-				<div class="container clearfix">
-
-					<div id="section-specs" class="heading-block title-center page-section">
-						<h2>Product Specifications</h2>
-						<span>Complete list of the Tech Specifications for your understanding</span>
-					</div>
-
-					<div id="side-navigation">
-
-						<div class="col_one_third">
-
-							<ul class="sidenav">
-								<li class="ui-tabs-active"><a href="#snav-content1"><i class="icon-screen"></i>Responsive Layout<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content2"><i class="icon-magic"></i>Retina Ready Display<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content3"><i class="icon-tint"></i>Unlimited Color Options<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content4"><i class="icon-gift"></i>Bootstrap 3.1 Compatible<i class="icon-chevron-right"></i></a></li>
-								<li><a href="#snav-content5"><i class="icon-adjust"></i>Light &amp; Dark Scheme<i class="icon-chevron-right"></i></a></li>
-							</ul>
-
-						</div>
-
-						<div class="col_two_third col_last">
-
-							<div id="snav-content1">
-								<h3>Ultra Responsive Template</h3>
-								<img class="alignright img-responsive" src="images/landing/responsive.png" alt="">
-
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, ex, inventore, tenetur, repellat ipsam soluta libero amet nam aspernatur perspiciatis quos praesentium et debitis ea odit enim illo aliquid eligendi numquam neque. Ipsum, voluptatibus, perspiciatis a quam aliquid cumque cupiditate id ipsa tempora eveniet. Cupiditate, necessitatibus, consequatur odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, vitae, laboriosam libero nihil labore hic modi? Odit, veritatis nulla molestiae!
-							</div>
-
-							<div id="snav-content2">
-								<h3>Retina Ready Display</h3>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatem reprehenderit natus facilis id deserunt iusto incidunt cumque odit molestias iste dolor eum esse soluta facere quidem minima in voluptate explicabo ducimus alias ratione aut molestiae omnis fuga labore quod optio modi voluptatum nemo suscipit porro maxime ex. Maiores, ratione eligendi labore quaerat veniam laborum nam rem delectus illum aspernatur quas sequi animi quae nulla alias hic inventore ex perspiciatis nisi consequatur enim a aut dolorum modi quod perferendis dicta impedit magni placeat repellat. Soluta, dicta, dolores, reiciendis, eum accusamus esse et debitis rem fugit fugiat dignissimos pariatur sint quod laborum autem. Nulla, ducimus, culpa, vel esse unde sapiente expedita corrupti consectetur veritatis quas autem laborum mollmquam amet eius. Numquam, ad, quaerat, ab, deleniti rem quae doloremque tenetur ea illum hic amet dolor suscipit porro ducimus excepturi perspiciatis modi praesentium voluptas quos expedita provident adipisci dolorem! Aliquam, ipsum voluptatem et voluptates impedit ab libero similique a. Nisi, ea magni et ab voluptatum nemo numquam odio quis libero aspernatur architecto tempore qui quisquam saepe corrupti necessitatibus natus quos aliquid non voluptatibus quod obcaecati fugiat quibusdam quidem inventore quia eveniet iusto culpa incidunt vero vel in accusamus eum. Molestiae nihil voluptate molestias illum eligendi esse nesciunt.
-							</div>
-
-							<div id="snav-content3">
-								<img class="alignleft img-responsive" src="http://www.w3schools.com/tags/colormap.gif" alt="">
-								<h3>Unlimited Color Options</h3>Dolor aperiam modi aliquam dolores consequatur error commodi ad eius incidunt! Libero, odio incidunt ullam sunt fugiat? Laboriosam, perferendis, debitis, harum soluta iste eos sunt odit architecto porro eveniet sint optio nihil animi. Laudantium, quam, culpa, velit molestias exercitationem reprehenderit enim distinctio aliquam aut ex numquam sequi assumenda veritatis fuga voluptatum. Magni, voluptates adipisci unde sapiente eligendi ea maxime tempora pariatur ipsa.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, aspernatur, saepe, quidem animi hic rem libero earum fuga voluptas culpa iure qui accusantium ab quae dolorum laborum quia repellat fugit aut minima molestias placeat mollitia doloribus quibusdam consectetur officia nesciunt ad. Ab, quod ipsum commodi assumenda doloribus possimus sed laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							</div>
-
-							<div id="snav-content4">
-								<img class="alignleft img-responsive" src="images/landing/bootstrap.png" alt="">
-								<h3>Bootstrap v3.2.0 Compatiable</h3>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, nostrum, dolores id quo nam repudiandae ad culpa architecto minima nemo eaque soluta nulla laborum neque provident saepe facilis expedita numquam quas alias in perferendis accusamus ipsam blanditiis sit voluptatem temporibus vero error veritatis repellat eos reiciendis repellendus quam. Officia dicta ipsam nostrum aperiam. Dolor, expedita enim modi nostrum commodi sint architecto aliquam aut mollitia repellendus deserunt quaerat aspernatur aperiam voluptatibus consequatur rerum consequuntur.
-							</div>
-
-							<div id="snav-content5">
-								<h3>Light &amp; Dark Scheme Available</h3>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, temporibus, maxime, laudantium quidem sapiente deserunt error rerum illum explicabo voluptate velit tempora cupiditate reprehenderit consequuntur nemo in et blanditiis soluta tempore perspiciatis at atque excepturi culpa facere sequi impedit cumque illo molestias saepe eveniet ducimus fugiat reiciendis unde. Modi, at laboriosam ex velit commodi officiis! Neque, consequatur, modi, nulla, voluptatem quibusdam incidunt minus dolores repellat nihil consectetur ducimus aliquid. Eaque, tempora voluptatum accusantium expedita obcaecati magnam voluptates consequatur ut harum rem dolor id error. Officia, repudiandae, eos, quibusdam porro eius esse cupiditate non fugit dignissimos delectus et tempora sequi fugiat quo voluptatem temporibus vel obcaecati? Laboriosam, quis obcaecati quas veniam repellendus officiis et quos velit id natus mollitia dacilis ipsum et perspiciatis officia iste cupiditate ducimus nisi consequuntur excepturi dolorum. Sint, architecto, cumque facere officia harum dicta perferendis inventore excepturi sequi explicabo provident omnis dolore quasi fugit molestiae atque id consectetur reprehenderit laborum beatae consequatur similique.
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
                 
-               
-
-				<div class="row clearfix bottommargin-lg common-height">
-
-					<div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
-						<div>
-							<i class="i-plain i-xlarge divcenter icon-line2-directions"></i>
-							<div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K</div>
-							<h5>Lines of Codes</h5>
+                <!-- Easy application setup with steps
+                ============================================ 
+                <div class="section nomargin noborder dark">
+					<div class="container center clearfix">
+						<div class="heading-block center">
+							<h2>Easy Custom Campaigns.</h2>
+							<span>Design custom social media campaigns and get realtime feedback on how your business is growing.</span>
+						</div>
+						<div class="col_full">
+							<img data-animate="fadeIn" class="aligncenter" src="images/services/macbook.png" alt="Macbook">
+						</div>
+						<div class="col_one_third nobottommargin">
+							<div class="feature-box fbox-plain">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">1.</i></a>
+								</div>
+								<h3>Choose a Service.</h3>
+								<p>Decide how you want to reach out to your customers, invite them to leave a review, fill out a survey, or follow your business on social media.</p>
+							</div>
+						</div>
+						<div class="col_one_third nobottommargin">
+							<div class="feature-box fbox-plain">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">2.</i></a>
+								</div>
+								<h3>Customize the details.</h3>
+                                <p>Use the customizable features in the <span class="color"><i>SocialSwell</i></span> dashboard to create and preview your unique campaign as well as upload your list of happy customers.</p>
+							</div>
+						</div>
+						<div class="col_one_third nobottommargin col_last">
+							<div class="feature-box fbox-plain">
+								<div class="fbox-icon">
+									<a href="#"><i class="i-alt">3.</i></a>
+								</div>
+								<h3>Monitor the results.</h3>
+								<p>Launch you campaign and monitor its success in real time. Your customer's reviews will be updated and neatly displayed everytime you login.</p>
+							</div>
 						</div>
 					</div>
-
-					<div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
-						<div>
-							<i class="i-plain i-xlarge divcenter icon-line2-graph"></i>
-							<div class="counter counter-lined"><span data-from="3000" data-to="21500" data-refresh-interval="100" data-speed="2500"></span></div>
-							<h5>KBs of HTML Files</h5>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
-						<div>
-							<i class="i-plain i-xlarge divcenter icon-line2-layers"></i>
-							<div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500"></span></div>
-							<h5>No. of Templates</h5>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
-						<div>
-							<i class="i-plain i-xlarge divcenter icon-line2-clock"></i>
-							<div class="counter counter-lined"><span data-from="60" data-to="1400" data-refresh-interval="30" data-speed="2700"></span></div>
-							<h5>Hours of Coding</h5>
-						</div>
-					</div>
-
 				</div>
+	
+                 <!-- Product Specifications 
+                =============================================
+                
+                <section id="productspec" style="overflow: visible;">
+                    <div class="content-wrap">
+                        <div class="container clearfix">
+                            <div id="section-specs" class="heading-block title-center page-section">
+						      <h2>Product Specifications</h2>
+                                <span>Complete list of the Tech Specifications for your understanding</span>
+                            </div>
+                            <div id="side-navigation">
+                                <div class="col_one_third">
+                                    <ul class="sidenav">
+                                        <li class="ui-tabs-active"><a href="#snav-content1"><i class="icon-screen"></i>Responsive Layout<i class="icon-chevron-right"></i></a></li>
+                                        <li><a href="#snav-content2"><i class="icon-magic"></i>Retina Ready Display<i class="icon-chevron-right"></i></a></li>
+                                        <li><a href="#snav-content3"><i class="icon-tint"></i>Unlimited Color Options<i class="icon-chevron-right"></i></a></li>
+                                        <li><a href="#snav-content4"><i class="icon-gift"></i>Bootstrap 3.1 Compatible<i class="icon-chevron-right"></i></a></li>
+                                        <li><a href="#snav-content5"><i class="icon-adjust"></i>Light &amp; Dark Scheme<i class="icon-chevron-right"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col_two_third col_last">
 
+                                    <div id="snav-content1">
+                                        <h3>Ultra Responsive Template</h3>
+                                        <img class="alignright img-responsive" src="images/landing/responsive.png" alt="">
+
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, ex, inventore, tenetur, repellat ipsam soluta libero amet nam aspernatur perspiciatis quos praesentium et debitis ea odit enim illo aliquid eligendi numquam neque. Ipsum, voluptatibus, perspiciatis a quam aliquid cumque cupiditate id ipsa tempora eveniet. Cupiditate, necessitatibus, consequatur odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, vitae, laboriosam libero nihil labore hic modi? Odit, veritatis nulla molestiae!
+                                    </div>
+
+                                    <div id="snav-content2">
+                                        <h3>Retina Ready Display</h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatem reprehenderit natus facilis id deserunt iusto incidunt cumque odit molestias iste dolor eum esse soluta facere quidem minima in voluptate explicabo ducimus alias ratione aut molestiae omnis fuga labore quod optio modi voluptatum nemo suscipit porro maxime ex. Maiores, ratione eligendi labore quaerat veniam laborum nam rem delectus illum aspernatur quas sequi animi quae nulla alias hic inventore ex perspiciatis nisi consequatur enim a aut dolorum modi quod perferendis dicta impedit magni placeat repellat. Soluta, dicta, dolores, reiciendis, eum accusamus esse et debitis rem fugit fugiat dignissimos pariatur sint quod laborum autem. Nulla, ducimus, culpa, vel esse unde sapiente expedita corrupti consectetur veritatis quas autem laborum mollmquam amet eius. Numquam, ad, quaerat, ab, deleniti rem quae doloremque tenetur ea illum hic amet dolor suscipit porro ducimus excepturi perspiciatis modi praesentium voluptas quos expedita provident adipisci dolorem! Aliquam, ipsum voluptatem et voluptates impedit ab libero similique a. Nisi, ea magni et ab voluptatum nemo numquam odio quis libero aspernatur architecto tempore qui quisquam saepe corrupti necessitatibus natus quos aliquid non voluptatibus quod obcaecati fugiat quibusdam quidem inventore quia eveniet iusto culpa incidunt vero vel in accusamus eum. Molestiae nihil voluptate molestias illum eligendi esse nesciunt.
+                                    </div>
+
+                                    <div id="snav-content3">
+                                        <img class="alignleft img-responsive" src="http://www.w3schools.com/tags/colormap.gif" alt="">
+                                        <h3>Unlimited Color Options</h3>Dolor aperiam modi aliquam dolores consequatur error commodi ad eius incidunt! Libero, odio incidunt ullam sunt fugiat? Laboriosam, perferendis, debitis, harum soluta iste eos sunt odit architecto porro eveniet sint optio nihil animi. Laudantium, quam, culpa, velit molestias exercitationem reprehenderit enim distinctio aliquam aut ex numquam sequi assumenda veritatis fuga voluptatum. Magni, voluptates adipisci unde sapiente eligendi ea maxime tempora pariatur ipsa.. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, aspernatur, saepe, quidem animi hic rem libero earum fuga voluptas culpa iure qui accusantium ab quae dolorum laborum quia repellat fugit aut minima molestias placeat mollitia doloribus quibusdam consectetur officia nesciunt ad. Ab, quod ipsum commodi assumenda doloribus possimus sed laudantium.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    </div>
+
+                                    <div id="snav-content4">
+                                        <img class="alignleft img-responsive" src="images/landing/bootstrap.png" alt="">
+                                        <h3>Bootstrap v3.2.0 Compatiable</h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, nostrum, dolores id quo nam repudiandae ad culpa architecto minima nemo eaque soluta nulla laborum neque provident saepe facilis expedita numquam quas alias in perferendis accusamus ipsam blanditiis sit voluptatem temporibus vero error veritatis repellat eos reiciendis repellendus quam. Officia dicta ipsam nostrum aperiam. Dolor, expedita enim modi nostrum commodi sint architecto aliquam aut mollitia repellendus deserunt quaerat aspernatur aperiam voluptatibus consequatur rerum consequuntur.
+                                    </div>
+
+                                    <div id="snav-content5">
+                                        <h3>Light &amp; Dark Scheme Available</h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, temporibus, maxime, laudantium quidem sapiente deserunt error rerum illum explicabo voluptate velit tempora cupiditate reprehenderit consequuntur nemo in et blanditiis soluta tempore perspiciatis at atque excepturi culpa facere sequi impedit cumque illo molestias saepe eveniet ducimus fugiat reiciendis unde. Modi, at laboriosam ex velit commodi officiis! Neque, consequatur, modi, nulla, voluptatem quibusdam incidunt minus dolores repellat nihil consectetur ducimus aliquid. Eaque, tempora voluptatum accusantium expedita obcaecati magnam voluptates consequatur ut harum rem dolor id error. Officia, repudiandae, eos, quibusdam porro eius esse cupiditate non fugit dignissimos delectus et tempora sequi fugiat quo voluptatem temporibus vel obcaecati? Laboriosam, quis obcaecati quas veniam repellendus officiis et quos velit id natus mollitia dacilis ipsum et perspiciatis officia iste cupiditate ducimus nisi consequuntur excepturi dolorum. Sint, architecto, cumque facere officia harum dicta perferendis inventore excepturi sequi explicabo provident omnis dolore quasi fugit molestiae atque id consectetur reprehenderit laborum beatae consequatur similique.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- #content end -->
+     
+
+                 <!-- Current Customers
+                ============================================= 
 				<div class="container clearfix">
-
-					<div class="col_one_third">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-line-monitor"></i></a>
-							</div>
-							<h3>Responsive Layout</h3>
-							<p>Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
-						</div>
-					</div>
-
-					<div class="col_one_third">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="200">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-line-eye"></i></a>
-							</div>
-							<h3>Retina Ready Graphics</h3>
-							<p>Looks beautiful &amp; ultra-sharp on Retina Displays with Retina Icons, Fonts &amp; Images.</p>
-						</div>
-					</div>
-
-					<div class="col_one_third col_last">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="400">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-line-star"></i></a>
-							</div>
-							<h3>Powerful Performance</h3>
-							<p>Optimized code that are completely customizable and deliver unmatched fast performance.</p>
-						</div>
-					</div>
-
-					<div class="clear"></div>
-
-					<div class="col_one_third">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-line-play"></i></a>
-							</div>
-							<h3>HTML5 Video</h3>
-							<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
-						</div>
-					</div>
-
-					<div class="col_one_third">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-params"></i></a>
-							</div>
-							<h3>Parallax Support</h3>
-							<p>Display your Content attractively using Parallax Sections that have unlimited customizable areas.</p>
-						</div>
-					</div>
-
-					<div class="col_one_third col_last">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="1000">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-line-circle-check"></i></a>
-							</div>
-							<h3>Endless Possibilities</h3>
-							<p>Complete control on each &amp; every element that provides endless customization possibilities.</p>
-						</div>
-					</div>
-
-					<div class="clear"></div>
-
-					<div class="col_one_third bottommargin-sm">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-bulb"></i></a>
-							</div>
-							<h3>Light &amp; Dark Color Schemes</h3>
-							<p>Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>
-						</div>
-					</div>
-
-					<div class="col_one_third bottommargin-sm">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-heart2"></i></a>
-							</div>
-							<h3>Boxed &amp; Wide Layouts</h3>
-							<p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
-						</div>
-					</div>
-
-					<div class="col_one_third bottommargin-sm col_last">
-						<div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="1000">
-							<div class="fbox-icon">
-								<a href="#"><i class="icon-note"></i></a>
-							</div>
-							<h3>Extensive Documentation</h3>
-							<p>We have covered each &amp; everything in our Documentation including Videos &amp; Screenshots.</p>
-						</div>
-					</div>
-
-					<div class="clear"></div>
-
-				</div>
-			
-				<div class="container clearfix">
-
+                    
+                    <div class="promo promo-light promo-full landing-promo bottommargin">
+					   <div class="container clearfix center">
+						  <h3>See our happy customers are already talking about our business</h3>
+					   </div>
+				    </div>
+                    
 					<div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xxs="2" data-items-xs="3" data-items-sm="4" data-items-md="5" data-items-lg="6">
 
 						<div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
@@ -416,7 +494,84 @@
 
 				</div>
 
-			</div>
+                <!-- Contact/Request a Demo 
+                ============================================= -->
+                <div class="section nomargin noborder">
+                <a class="button button-full center tright footer-stick">
+					<div class="container clearfix dark">
+                        <h2>Learn how SocialSwell can help your business. <b>Request a Demo</b></h2>
+					</div>
+				</a>
+                </div>
+		<!-- Contact Form & Map Overlay Section
+		============================================= -->
+		<section class="parallax nomargin noborder" style="background-image: url('images/city1.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.3" id="contact">
+
+
+				<!-- Contact Form Overlay
+				============================================= -->
+				<div id="contact-form-overlay" class="clearfix">
+
+					<div class="contact-widget">
+
+						<div class="contact-form-result"></div>
+
+						<!-- Contact Form
+						============================================= -->
+						<form class="nobottommargin" id="template-contactform" name="template-contactform" method="post">
+
+							<div class="col_half">
+								<label for="name">Name <small>*</small></label>
+								<input type="text" id="name" name="name" value="" class="sm-form-control required" />
+							</div>
+
+							<div class="col_half col_last">
+								<label for="email">Email <small>*</small></label>
+								<input type="email" id="email" name="email" value="" class="required email sm-form-control" />
+							</div>
+
+							<div class="clear"></div>
+
+							<div class="col_half">
+								<label for="phone">Phone</label>
+								<input type="text" id="phone" name="phone" value="" class="sm-form-control" />
+							</div>
+
+							<div class="col_half col_last">
+								<label for="business">Business</label>
+								<input type="text" id="business" name="business" value="" class="sm-form-control" />
+							</div>
+
+							<div class="clear"></div>
+
+							<div class="col_full">
+								<label for="message">Message (Optional)</label>
+								<textarea class="sm-form-control" id="message" name="message" rows="4" cols="30"></textarea>
+							</div>
+
+							<div class="col_full hidden">
+								<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+							</div>
+
+							<div class="col_full">
+								<button class="button button-3d nomargin" type="submit" id="submit" name="submit" value="submit">Send Request</button>
+							</div>
+                              <div id="messages" class="hide" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <div id="messages_content"></div>
+                            </div>
+
+						</form>
+					</div>
+
+
+				</div><!-- Contact Form Overlay End -->
+
+		
+
+		</section><!-- Contact Form & Map Overlay Section End -->
+      
+            </div>
 
 		</section><!-- #content end -->
 
@@ -424,165 +579,7 @@
 		============================================= -->
 		<footer id="footer" class="dark">
 
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
-
-					<div class="col_two_third">
-
-						<div class="col_one_third">
-
-							<div class="widget clearfix">
-
-								<img src="images/footer-widget-logo.png" alt="" class="footer-logo">
-
-								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
-
-								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-									<address>
-										<strong>Headquarters:</strong><br>
-										795 Folsom Ave, Suite 600<br>
-										San Francisco, CA 94107<br>
-									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="col_one_third">
-
-							<div class="widget widget_links clearfix">
-
-								<h4>Blogroll</h4>
-
-								<ul>
-									<li><a href="http://codex.wordpress.org/">Documentation</a></li>
-									<li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-									<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
-									<li><a href="http://wordpress.org/support/">Support Forums</a></li>
-									<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
-									<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
-									<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
-								</ul>
-
-							</div>
-
-						</div>
-
-						<div class="col_one_third col_last">
-
-							<div class="widget clearfix">
-								<h4>Recent Posts</h4>
-
-								<div id="post-list-footer">
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>10th July 2014</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="col_one_third col_last">
-
-						<div class="widget clearfix" style="margin-bottom: -20px;">
-
-							<div class="row">
-
-								<div class="col-md-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Total Downloads</h5>
-								</div>
-
-								<div class="col-md-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Clients</h5>
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="widget subscribe-widget clearfix">
-							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-							<div class="widget-subscribe-form-result"></div>
-							<form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
-								<div class="input-group divcenter">
-									<span class="input-group-addon"><i class="icon-email2"></i></span>
-									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-									<span class="input-group-btn">
-										<button class="btn btn-success" type="submit">Subscribe</button>
-									</span>
-								</div>
-							</form>
-						</div>
-
-						<div class="widget clearfix" style="margin-bottom: -20px;">
-
-							<div class="row">
-
-								<div class="col-md-6 clearfix bottommargin-sm">
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-								</div>
-								<div class="col-md-6 clearfix">
-									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-										<i class="icon-rss"></i>
-										<i class="icon-rss"></i>
-									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
+			
 			<!-- Copyrights
 			============================================= -->
 			<div id="copyrights">
@@ -590,56 +587,14 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2016 All Rights Reserved by SocialSwell.<br>
-						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						  Copyrights &copy; 2016 All Rights Reserved by SocialSwell.<br>
 					</div>
 
 					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="#" class="social-icon si-small si-borderless si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-gplus">
-								<i class="icon-gplus"></i>
-								<i class="icon-gplus"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-pinterest">
-								<i class="icon-pinterest"></i>
-								<i class="icon-pinterest"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-vimeo">
-								<i class="icon-vimeo"></i>
-								<i class="icon-vimeo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-github">
-								<i class="icon-github"></i>
-								<i class="icon-github"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-yahoo">
-								<i class="icon-yahoo"></i>
-								<i class="icon-yahoo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-linkedin">
-								<i class="icon-linkedin"></i>
-								<i class="icon-linkedin"></i>
-							</a>
-						</div>
 
 						<div class="clear"></div>
 
-						<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+						<i class="icon-envelope2"></i> info@socialswell.co <span class="middot">&middot;</span> <i class="icon-phone"></i> 1.844.560.2626 <span class="middot">&middot;</span>
 					</div>
 
 				</div>
@@ -656,12 +611,101 @@
 
 	<!-- External JavaScripts
 	============================================= -->
+    
+    <script src="jquery-2.1.0.min.js"></script>
+	<script src="app.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
+
 
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript">
+
+		jQuery(window).load( function(){
+
+			var radarChartData = {
+				labels : ["A","B","C","D","E","F","G"],
+				datasets : [
+					{
+						fillColor : "rgba(220,220,220,0.5)",
+						strokeColor : "rgba(220,220,220,1)",
+						pointColor : "rgba(220,220,220,1)",
+						pointStrokeColor : "#fff",
+						data : [65,59,90,81,56,55,40]
+					},
+					{
+						fillColor : "rgba(151,187,205,0.5)",
+						strokeColor : "rgba(151,187,205,1)",
+						pointColor : "rgba(151,187,205,1)",
+						pointStrokeColor : "#fff",
+						data : [28,48,40,19,96,27,100]
+					}
+				]
+
+			};
+            
+            var barChartData = {
+				labels : ["January","February","March","April","May","June","July"],
+				datasets : [
+					{
+						fillColor : "rgba(0,174,239,1)",
+						strokeColor : "rgba(248,235,241,1)",
+						data : [45,53,71,81,85,89,96]
+					}
+				]
+
+			};
+
+			var doughnutChartData = [
+				{
+                    value: 30,
+					color:"#F7464A"
+				},
+				{  
+					value : 50,
+					color : "#46BFBD"
+				},
+				{
+					value : 100,
+					color : "#FDB45C"
+				},
+				{
+					value : 40,
+					color : "#949FB1"
+				},
+				{
+					value : 120,
+					color : "#4D5360"
+				}
+			];
+
+			var globalGraphSettings = {animation : Modernizr.canvas};
+
+			function showRadarChart(){
+				var ctx = document.getElementById("radarChartCanvas").getContext("2d");
+				new Chart(ctx).Radar(radarChartData,globalGraphSettings);
+			}
+
+			function showDoughnutChart(){
+				var ctx = document.getElementById("doughnutChartCanvas").getContext("2d");
+				new Chart(ctx).Doughnut(doughnutChartData,globalGraphSettings);
+			}
+            	function showBarChart(){
+				var ctx = document.getElementById("barChartCanvas").getContext("2d");
+				new Chart(ctx).Bar(barChartData,{showScale: false},globalGraphSettings);
+			}
+
+			$('#radarChart').appear( function(){ $(this).css({ opacity: 1 }); setTimeout(showRadarChart,300); },{accX: 0, accY: -155},'easeInCubic');
+
+			$('#doughnutChart').appear( function(){ $(this).css({ opacity: 1 }); setTimeout(showDoughnutChart,300); },{accX: 0, accY: -155},'easeInCubic');
+            
+            $('#barChart').appear( function(){ $(this).css({ opacity: 1 }); setTimeout(showBarChart,300); },{accX: 0, accY: -155},'easeInCubic');
+
+		});
+
+	</script>
 
 </body>
 </html>
